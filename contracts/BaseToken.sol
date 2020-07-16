@@ -2,7 +2,7 @@
 
 pragma solidity ^0.6.10;
 
-import "@vittominacori/erc20-token/contracts/ERC20Base.sol";
+import "@emblemlabs/erc20-token/contracts/ERC20Base.sol";
 
 /**
  * @title BaseToken
@@ -11,7 +11,7 @@ import "@vittominacori/erc20-token/contracts/ERC20Base.sol";
  */
 contract BaseToken is ERC20Base {
 
-  string private constant _GENERATOR = "https://vittominacori.github.io/erc20-generator";
+  string private constant _GENERATOR = "https://emblemlabs.github.io/erc20-generator";
   string private constant _VERSION = "v3.1.0";
 
   constructor (
